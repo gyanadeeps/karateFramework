@@ -8,13 +8,9 @@ public class TestRunner
 
     @Karate.Test
     Karate testUsers() {
-        return Karate.run("users").relativeTo(getClass());
+        return Karate.run().relativeTo(getClass());
 
     }
-    @Karate.Test
-    Karate testadmin() {
-        return Karate.run("GET_Admin").relativeTo(getClass());
 
-    }
 
 }
