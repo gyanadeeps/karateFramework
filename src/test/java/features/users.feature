@@ -44,6 +44,7 @@ Feature: User feature
       * print requestPayload
 
 
+
   Scenario: Get User scenario
     Given header Authorization = 'Bearer '+ token
     And   header Connection = 'Keep-Alive'

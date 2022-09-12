@@ -16,7 +16,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="KarateFramework" options="-Werror" />
+      <module name="KarateFramework" options="" />
       <module name="karateframework" options="-Werror" />
     </option>
   </component>

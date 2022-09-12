@@ -20,7 +20,7 @@ Feature: Authenticate Feature
     And request requestPayload
     When method post
     Then status 200
-    * print response
     * def accessToken = response.access_token
     #* header Authorization = 'Bearer ' + token
+
 
